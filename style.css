@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+
+
+.navBar {
+    background-color: rgb(97, 37, 249);
+    width:100%;
+    height: 80px;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+
+.centerRect {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerRect.two {
+    border-bottom: 2px solid black;
+    padding: 5px;
+
+}
+
+.centerRect.three {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+.cList ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.cList ul li{
+    margin-left: 20px;
+
+}
+
+.cOpt {
+    display: flex;
+}
+.cOpt p {
+    margin-right: 6px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238, 238, 238);
+    width: 23%;
+    height: 400px;
+}
+
+.card img {
+    height: 120px;
+    border-radius: 100%;
+}
+
+.centerRect.four {
+    background-color: rgb(238, 238, 238);
+    border:2px solid black;
+    padding: 10px;
+}
+
+.centerRect.four div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.btn {
+    background-color:rgb(252, 14, 74);
+    color:rgb(255, 255, 255);
+    box-shadow: 5px 5px 0px rgb(51, 12, 3);
+    padding:5px;
+    font-size: 1em;
+}
+
+.hiLow {
+    margin-left:20px;
+    margin-right:20px;
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.low {
+    color:blue;
+    font-style:bold;
+}
+.hi {
+    color:red;
+    font-style:bold;
+}
+
+
+

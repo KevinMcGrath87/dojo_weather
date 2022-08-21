@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dojo_weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "navBar">
+        <div class = "centerRect one">
+            <div class = "title">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class = "cList">
+                <ul>
+                    <li onclick = "cityAlert(this)">Burbank</li>
+                    <li onclick = "cityAlert(this)">Chicago</li>
+                    <li onclick = "cityAlert(this)">Dallas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class = "main">
+        <div class = "centerRect two">
+            <div class = "title">
+                <h2>Chicago</h2>
+            </div>
+            <div class = "cOpt">
+                <p>show temperature in</p>
+                <select oninput = "tempSwitch(this)" class = cSelect name = "cSelect">
+                    <option>&#8451</option>
+                    <option>&#8457</option>
+                </select>
+            </div>
+        </div>
+        <div class = "centerRect three">
+            <div class="card">
+                <h3 class = "cardTitle">Today</h3>
+                <img class = "wIcon" src = "Assets/some_rain.png">
+                <p class = "description">rain!</p>
+                <ul class = "hiLow">
+                    <li class = "hi">&#176;86</li>
+                    <li class = "low">&#176;85</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class = "cardTitle">Tomorrow</h3>
+                <img class = "wIcon" src = "Assets/some_sun.png">
+                <p class = "description">sun!</p>
+                <ul class = "hiLow">
+                    <li class = "hi">&#176;99</li>
+                    <li class = "low">&#176;96</li>
+                </ul>
+                
+            </div>
+            <div class="card">
+                <h3 class = "cardTitle">Monday</h3>
+                <img class = "wIcon" src= "Assets/some_clouds.png">
+                <p class = "description">cloudy!</p>
+                <ul class = "hiLow">
+                    <li class = "hi">&#176;99</li>
+                    <li class = "low">&#176;34</li>
+                </ul>
+                
+            </div>
+            <div class="card">
+                <h3 class = "cardTitle">Sunday</h3>
+                <img class = "wIcon" src = "Assets/some_sun.png">
+                <p class = "description">sun!</p>
+                <ul class = "hiLow">
+                    <li class = "hi">&#176;99</li>
+                    <li class = "low">&#176;23</li>
+                </ul>
+            </div>
+        </div>
+        <div class = "centerRect four">
+            <img src = "Assets/cookie.png">
+            <div>
+                <h3>Stop! Cookie Time</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id molestias odit. Nulla explicabo inventore iste dolores tempore amet consequatur soluta sapiente modi rerum atque, incidunt labore eius aspernatur at?<a href = #> Read more...</a></p>
+            </div>
+            <button onclick = "cookieKiller()" class = "btn">I accept</button>
+        </div>
+
+        
+    </div>
+
+<script src = "script.js"> </script>
+</body>
+</html>
